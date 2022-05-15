@@ -19,7 +19,7 @@ echo "Enter y to run the Trade/Quote RDB (y/n)?"
 read rTQbool
 
 if [ "$rTQbool" = "y" ]; then
-    nohup $q $advancedKDB/tick/rTQ.q localhost:$tpPort 1>>$advancedKDB/logs/tick.log 2>&1 &
+    nohup $q $advancedKDB/tick/rTQ.q localhost:$tpPort 1>>$advancedKDB/logs/rTQ.log 2>&1 &
 fi
 
 echo "Enter y to run the Aggregation RDB (y/n)?"
