@@ -1,5 +1,5 @@
 /q tick/r.q localhost:5011
-h:neg hopen `:localhost:5011
+/h:neg hopen `:localhost:5011
 /2008.09.09 .k ->.q
 
 system raze["l ",getenv[`advancedKDB],"/logging.q"]
