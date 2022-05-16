@@ -1,0 +1,28 @@
+To clone the repository into your linux envirnoment. run:
+
+git clone https://github.com/mannixm/advancedKDB.git
+
+This will create a folder called "advancedKDB"
+
+To start the tickerplant, first ensure there are no processes running on the port we have chosen to use: 6000, you can always change this port for another in AdvancedKDB/scripts/config
+
+Also in scripts/config.sh, make sure Q (the q home directory) and q (the q executable has been set)
+
+To start the processes run (you will get the option of which ones you would like to start):
+
+bash start.sh
+
+To test the processes run  (you will get the option of which ones you would like to stop):
+
+bash stop.sh
+
+To test the processes run:
+
+bash test.sh
+____________________________________
+
+The tickerplant logs will be in the folder scripts
+
+_____________________________________
+
+Tickerplant log replay, the tick
