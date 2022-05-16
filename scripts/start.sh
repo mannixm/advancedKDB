@@ -6,7 +6,6 @@
 #nohup q tick/rAGG.q localhost:5011 1>>rAGG.log 2>&1 &
 
 
-# Get environmental config variables temporarily
 source ./config.sh
 echo "Enter y to run the Tickerplant, (y/n)"
 read tickbool
