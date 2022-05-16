@@ -43,15 +43,32 @@ q hdb.q ../scripts/sym2022.05.16
 
 ____________________________________
 
+With the tickerplant running, edit the hostname and port to the ones you are using in: advancedKDB/blob/main/question3/websocket.html
+
+Open websocket.html in a browser, connect and type in the name of the ticker you are searching for e.g. GS.N
+_____________________________________
 For the python API navigate to:
 
 advancedKDB/question3/pythonAPI/
 
+Change the hostname and port and csv filepath to match the setup you have been using in: advancedKDB/question3/pythonAPI/CSVReader.py
 
+python CSVReader.py
 
 ____________________________________
+
+For the java API navigate to:
+
+advancedKDB/question3/javaApi/
+
+Change the hostname and port and csv filepath to match the setup you have been using in advancedKDB/question3/javaApi/src/main/java/kx/examples/Feed.java
 
 javac -d build/classes src/main/java/kx/c.java
 javac -d build/classes -cp build/classes src/main/java/kx/examples/Feed.java
 java -cp build/classes kx.examples.Feed
+
+____________________________________
+
+
+
 
