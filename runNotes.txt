@@ -25,4 +25,17 @@ The tickerplant logs will be in the folder scripts
 
 _____________________________________
 
-Tickerplant log replay, the tick
+Tickerplant log replay:
+
+q IBMtrade.q scripts/sym2022.05.16
+
+____________________________________
+
+CSV Reader:
+
+q CSVReader.q trade trade.csv 6000
+
+____________________________________
+
+
+
