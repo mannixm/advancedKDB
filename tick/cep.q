@@ -1,6 +1,6 @@
 /q tick/r.q localhost:5011
-/h:neg hopen `:localhost:5011
 /2008.09.09 .k ->.q
+h:neg hopen hsym `$(raze[("localhost:",getenv[`tpPort])])
 
 system raze["l ",getenv[`advancedKDB],"/logging.q"]
 
