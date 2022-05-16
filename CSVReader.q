@@ -9,5 +9,9 @@ $[(`$table)=`quote;quote:("NSFFJJ";enlist ",") 0: read0 hsym `$fp;quote:"notset"
 
 h::hopen `$raze[(":localhost:",port)]
 
-if[(`$table)=`trade;h(`.u.upd;`trade;value flip trade)]
-if[(`$table)=`quote;h(`.u.upd;`quote;value flip quote)]
+if[(`$table)=`trade;h(`.u.upd;`trade;value flip trade)];
+if[(`$table)=`quote;h(`.u.upd;`quote;value flip quote)];
+
+0N!"CSV rows have been added to the tickerplant";
+
+exit 0
