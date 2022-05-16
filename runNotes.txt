@@ -41,6 +41,17 @@ For E0D process:
 
 q hdb.q ../scripts/sym2022.05.16
 
+____________________________________
+
+For the python API navigate to:
+
+advancedKDB/question3/pythonAPI/
 
 
+
+____________________________________
+
+javac -d build/classes src/main/java/kx/c.java
+javac -d build/classes -cp build/classes src/main/java/kx/examples/Feed.java
+java -cp build/classes kx.examples.Feed
 
