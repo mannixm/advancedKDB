@@ -25,5 +25,8 @@ c:splay:` sv/:' ((hsym hdbdir),'(`$string[date]),/:a),/:' ((cols each a) except\
 //compress those things
 {-19!(x;x;17;2;6)} each/: c
 
+//message
+0N!"The HDB has been created";
+
 //job done
 exit 0
