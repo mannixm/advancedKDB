@@ -7,7 +7,7 @@ export FEEDON=$(ps -ef | grep -v grep |grep "feed.q"|wc -l)
 export RAGGON=$(ps -ef | grep -v grep |grep "rAGG.q"|wc -l)
 
 export TPPORT=$(ps -ef | grep -v grep |grep "tick.q"|awk '{print $2}')
-export RTPORT=$(ps -ef | grep -v grep |grep "rTQ.q"|awk '{print $2}')
+export RTQPORT=$(ps -ef | grep -v grep |grep "rTQ.q"|awk '{print $2}')
 export CEPPORT=$(ps -ef | grep -v grep |grep "cep.q"|awk '{print $2}')
 export FEEDPORT=$(ps -ef | grep -v grep |grep "feed.q"|awk '{print $2}')
 export RAGGPORT=$(ps -ef | grep -v grep |grep "rAGG.q"|awk '{print $2}')
