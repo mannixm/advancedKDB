@@ -9,4 +9,4 @@ e[;2]:IBMupdates;
 ibm:e
 (hsym `$(raze[b,"IBM"])) set ibm
 0N!raze[b,"IBM"," has been created"];
-exit 0:
+exit 0
