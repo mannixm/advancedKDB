@@ -10,8 +10,24 @@ This will create a folder called "advancedKDB"
 
 ///////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////     EXERCISE 1 - TICK       /////////////////////////////
-////////////////////////////////////////  ///////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
 
+/////////////////////////////   EXERCISE 1 - PART 1 - TICKERPLANT   /////////////////////////////
+
+Manual Commands to run tickerplant________________
+
+In a linux envirnoment inside "advancedKDB" run:
+
+-sh-4.1$ export advancedKDB="$(dirname "$dir")"
+-sh-4.1$ export tpPort=6000
+-sh-4.1$ echo $tpPort
+6000
+-sh-4.1$ q $advancedKDB/tick.q sym . -p $tpPort
+
+___________________________________________________
+
+
+Start tickerplant using scripts____________________
 To start the tickerplant, first ensure there are no processes running on the port we have chosen to use: 6000, you can always change this port for another in AdvancedKDB/scripts/config
 
 Also in scripts/config.sh, make sure Q (the q home directory) and q (the q executable has been set)
@@ -27,7 +43,22 @@ bash stop.sh
 To test the processes run:
 
 bash test.sh
-____________________________________
+___________________________________________________
+
+/////////////////////////////   EXERCISE 1 - PART 1 - RDB   /////////////////////////////
+
+Manual Commands to run tickerplant________________
+
+In a linux envirnoment inside "advancedKDB" run:
+
+-sh-4.1$ export advancedKDB="$(dirname "$dir")"
+-sh-4.1$ export tpPort=6000
+-sh-4.1$ echo $tpPort
+6000
+-sh-4.1$ q $advancedKDB/tick/rTQ.q localhost:$tpPort
+
+___________________________________________________
+
 
 The tickerplant logs will be in the folder scripts
 
