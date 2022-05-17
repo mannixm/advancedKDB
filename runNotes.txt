@@ -145,6 +145,8 @@ q CSVReader.q trade trade.csv 6000
 //////////////////////////   EXERCISE 1 - PART 9 - HDB  /////////////////////////////
 $advancedKDB/tick/hdb.q
 
+MOVE INTO THE "TICK" DIRECTORY: $advancedKDB/tick/
+
 QUESTION: Write a script which will take the Ticker Plant log and create a daily partitioned HDB in which all columns are compressed with the exception of sym and time.
 
 For E0D process:
