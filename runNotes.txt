@@ -130,7 +130,7 @@ Tickerplant log replay:
 
 QUESTION: Write a script that reads in a tickerplant log file which contains trade and quote updates and creates a new tickerplant log file which only contains the trade updates for ibm.n.
 
-q IBMtrade.q sym2022.05.16
+q IBMtrade.q sym2022.05.17
 //////////////////////////   EXERCISE 1 - PART 8 - CSV FILE LOAD  /////////////////////////////
 $advancedKDB/CSVReader.q
 
