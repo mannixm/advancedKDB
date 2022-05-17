@@ -203,13 +203,8 @@ LINK TO ANSWER: https://github.com/mannixm/advancedKDB/blob/main/question2/db/fa
 ///////////////////////////////////////////////////////////////////////////////////////
 
 
-____________________________________
+/////////////////////////////   EXERCISE 3 - PART 1 - PYTHON API    /////////////////////////////
 
-With the tickerplant running, edit the hostname and port to the ones you are using in: advancedKDB/blob/main/question3/websocket.html
-
-Open websocket.html in a browser, connect and type in the name of the ticker you are searching for e.g. GS.N
-_____________________________________
-________________________________
 For the python API navigate to:
 
 advancedKDB/question3/pythonAPI/
@@ -218,7 +213,7 @@ Change the hostname and port and csv filepath to match the setup you have been u
 
 python CSVReader.py
 
-____________________________________
+/////////////////////////////   EXERCISE 3 - PART 2 - JAVA API    /////////////////////////////
 
 For the java API navigate to:
 
@@ -230,7 +225,12 @@ javac -d build/classes src/main/java/kx/c.java
 javac -d build/classes -cp build/classes src/main/java/kx/examples/Feed.java
 java -cp build/classes kx.examples.Feed
 
-____________________________________
+/////////////////////////////   EXERCISE 3 - PART 3 - WEBSOCKET    /////////////////////////////
+
+With the tickerplant running, edit the hostname and port to the ones you are using in: advancedKDB/blob/main/question3/websocket.html
+
+Open websocket.html in a browser, connect and type in the name of the ticker you are searching for e.g. GS.N
+
 
 
 
