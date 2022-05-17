@@ -204,6 +204,7 @@ LINK TO ANSWER: https://github.com/mannixm/advancedKDB/blob/main/question2/db/fa
 
 
 /////////////////////////////   EXERCISE 3 - PART 1 - PYTHON API    /////////////////////////////
+$advancedKDB/question3/pythonAPI/CSVReader.py
 
 For the python API navigate to:
 
@@ -214,6 +215,7 @@ Change the hostname and port and csv filepath to match the setup you have been u
 python CSVReader.py
 
 /////////////////////////////   EXERCISE 3 - PART 2 - JAVA API    /////////////////////////////
+$advancedKDB/question3/javaApi/src/main/java/kx/examples/Feed.java
 
 For the java API navigate to:
 
@@ -226,6 +228,7 @@ javac -d build/classes -cp build/classes src/main/java/kx/examples/Feed.java
 java -cp build/classes kx.examples.Feed
 
 /////////////////////////////   EXERCISE 3 - PART 3 - WEBSOCKET    /////////////////////////////
+$advancedKDB/question3/websocket.html
 
 With the tickerplant running, edit the hostname and port to the ones you are using in: advancedKDB/blob/main/question3/websocket.html
 
