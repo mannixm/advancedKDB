@@ -1,8 +1,16 @@
+///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////     CLONING GIT REPO       /////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
 To clone the repository into your linux envirnoment. run:
 
 git clone https://github.com/mannixm/advancedKDB.git
 
 This will create a folder called "advancedKDB"
+
+///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////     EXERCISE 1 - TICK       /////////////////////////////
+////////////////////////////////////////  ///////////////////////////////////////////////
 
 To start the tickerplant, first ensure there are no processes running on the port we have chosen to use: 6000, you can always change this port for another in AdvancedKDB/scripts/config
 
@@ -47,6 +55,41 @@ With the tickerplant running, edit the hostname and port to the ones you are usi
 
 Open websocket.html in a browser, connect and type in the name of the ticker you are searching for e.g. GS.N
 _____________________________________
+
+///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////   EXERCISE 2 - DEBUGGING    /////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////   EXERCISE 2 - PART 1    /////////////////////////////
+QUESTION: The below tickerplant log contains and error. a) Locate the error b) Fix the error Show how each was performed
+
+LINK TO ANSWER: https://github.com/mannixm/advancedKDB/blob/main/question2/db/tplogIssues.txt
+
+
+/////////////////////////////   EXERCISE 2 - PART 2    /////////////////////////////
+
+QUESTION: The 3 tables in the below zip file contain errors. Try to ascertain the error and recommend a suitable fix for each.
+
+LINK TO ANSWER: https://github.com/mannixm/advancedKDB/blob/main/question2/db/fileIssues.txt
+
+/////////////////////////////   EXERCISE 2 - PART 3    /////////////////////////////
+
+QUESTION: In your current system you have a historical database and a single hdb kdb+ instance to host user queries. Users are complaining about slowness. What is the probable cause of the slowness and suggest 2 changes that could be made to alleviate the problem. Maintain a single entry point to the system if possible
+
+LINK TO ANSWER: https://github.com/mannixm/advancedKDB/blob/main/question2/db/fasterhdb.txt
+
+/////////////////////////////   EXERCISE 2 - PART 4    /////////////////////////////
+
+QUESTION: Improve the performance of function StringtoDate:{[x]{$[10h~abs type x;x:"D"$x;-14h~ type x;x:x;`date$x]}'[x]} given input: raze 500000#enlist("2010.01.01";2010.01.02). Do not use .Q.fu.
+
+LINK TO ANSWER: https://github.com/mannixm/advancedKDB/blob/main/question2/db/fasterquery.txt
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////      EXERCISE 3 - API       /////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
 For the python API navigate to:
 
 advancedKDB/question3/pythonAPI/
