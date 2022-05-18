@@ -225,6 +225,7 @@ advancedKDB/question3/javaApi/
 
 Change the hostname and port and csv filepath to match the setup you have been using in advancedKDB/question3/javaApi/src/main/java/kx/examples/Feed.java
 
+mkdir -p build/classes
 javac -d build/classes src/main/java/kx/c.java
 javac -d build/classes -cp build/classes src/main/java/kx/examples/Feed.java
 java -cp build/classes kx.examples.Feed
